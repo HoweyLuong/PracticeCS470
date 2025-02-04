@@ -36,4 +36,11 @@ int main() {
 
     }
 
+    //Parent 
+    printf("print out history: -------\n");
+    while((pid=wait(&status))>0) {
+        printf("Child process with PID %d finished\n", pid);
+    }
+    return EXIT_SUCCESS;
+
 }
