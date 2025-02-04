@@ -31,9 +31,6 @@ int main() {
             perror("Exec failed");
             exit(EXIT_FAILURE);
         }
-
-
-
     }
 
     //Parent 
